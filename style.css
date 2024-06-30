@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(228, 240, 228);
+}
+*{
+    border-radius: 10px;
+}
+.mtavari{
+    width: 700px;
+    background-color: white;
+    height: 750px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+h1{
+    padding: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ form>label{
+    padding: 25px;
+    font-size: 17px;
+    color: rgb(87, 87, 87);
+ }
+ form>.three{
+  width: 630px;
+  height: 45px;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+ }
+ .flex{
+    display: flex;
+    margin-bottom: 40px;
+ }
+ form>.flex>.four{
+  margin-top: 20px;
+  border: 1px solid;
+  width: 300px;
+  height: 45px;
+  margin-left:25px ;
+  display: flex;
+  align-items: center;
+ }
+ form>.flex>.four>label{
+    padding-left: 8px;
+ }
+ form>.flex>.five{
+    
+  margin-top: 20px;
+  border: 1px solid;
+  width: 300px;
+  height: 45px;
+  margin-left:25px ;
+  display: flex;
+  align-items: center;
+ }
+ 
+ form>.flex>.five>label{
+    padding-left: 8px;
+}
+form>.six{
+    width: 630px;
+    height: 100px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+form>.div{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+form>.div>label{
+    padding-left: 5px;
+}
+.btn>button{
+    width: 630px;
+    height: 45px;
+    margin-left: 25px;
+    background-color: rgb(60, 133, 93);
+    border: none;
+    color: white;
+}
+.btn>button:hover{
+ cursor: pointer;
+}
